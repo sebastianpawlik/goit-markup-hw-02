@@ -1,0 +1,114 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+  }
+ul {
+     list-style: none;
+     }
+.underline {
+    text-decoration: none;
+}
+
+.logo1 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+    text-decoration: none;
+ }
+ .logo2 {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+        letter-spacing: 0.03em;
+        color: #000;
+        text-decoration: none;
+ }
+ .text-agencja {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+ }
+ .text-portfolio {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #2196F3;
+ }
+.text-kontakty {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #212121;
+ }
+ .phone{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #757575;
+ }
+ .mail{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #757575;
+ }
+
+.buttons{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+letter-spacing: 0.03em;
+background: #F5F4FA;
+cursor: pointer;
+border: transparent;
+}
+.button:hover {
+    border: solid;
+    border-color: #2196F3;
+    text-decoration: underline
+    border-radius: 4px;
+}
+
+
+
+ .color-footer {
+    color: #FFFFFF;}
+footer{
+    background: #2F303A;
+}
+
+ .logo2foot {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #FFF;
+    text-decoration: none;
+}
