@@ -1,3 +1,26 @@
+/* stylowanie main w index.html */
+.index-header{
+position: absolute;
+width: 696px;
+height: 120px;
+left: 452px;
+top: 280px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+/* or 136% */
+
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+/* 
+color: #FFFFFF; */
+}
+
+/* stylowanie Portfolio.html */
 body {
     font-family: 'Roboto', sans-serif;
     list-style: none;
