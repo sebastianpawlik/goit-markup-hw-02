@@ -6,21 +6,12 @@
     --main-white: #FFFFFF;
     --second-white: #F5F4FA;
     --main-silver: #757575;
+   
   }
   body {
     font-family: "Roboto", sans-serif;
     color: var(--main-black);
   }
-
-.mail-underline{ 
-font-family: var(--font-family);
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-color: var(--main-blue)
-}
-
 .section-header {
     background: var(--background-grey);    
     }
@@ -41,17 +32,19 @@ color: var(--main-blue)
     font-size: 16px;
     line-height: 1.88;
     color:  var(--main-white);  
-    background: #2196f3;
+    background: var(--main-blue);
     coursor: pointer;
 }
-.index-button:hoover {
+
+.index-button::hover:focus{
     font-family: var(--font-family);
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
     color:  var(--main-white);  
-    background: #2196f3;
+    background: var(--main-blue);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .text-block-header {
     font-family: var(--font-family);
@@ -164,6 +157,7 @@ body {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
+    text-decoration: none;
     color: var(--main-silver);
 
  }
@@ -173,10 +167,10 @@ body {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
+    text-decoration: none;
     color: var(--main-silver);
 }
-
-.button-all{
+.button-all {
     font-family: var(--font-family);
     font-style: normal;
     font-weight: 500;
@@ -185,11 +179,9 @@ body {
     color:  var(--main-white);
     background-color: var(--main-blue);
     border-color: var(--main-blue);
-    coursor: pointer;
-    
- }
-.button-all:hover 
-.button-all:focus{
+    cursor: pointer;
+     }
+.button-all:hover:focus{
     border: solid;
     border-color: var(--main-blue);
 }
@@ -200,19 +192,25 @@ body {
     font-size: 16px;
     line-height: 1.62;
     background: var(--second-white);
-    coursor: pointer;
+    cursor: pointer;
     }
-.button:hover 
-.button:focus{
+
+.button-all:hover:focus {
     border: solid;
     border-color: var(--main-blue);
     text-decoration: underline
  }
 
-.color-footer {
-    color:  var(--main-white)
+.color-footer-address {
+    color:  var(--main-white);
 }
-
+.color-footer-phone {
+    color: var(--main-silver);
+}
+.color-footer-mail {
+    color: var(--main-silver);
+    text-decoration: underline;
+}
 .footer-background{
     background: var(--background-grey);
 }
