@@ -13,38 +13,38 @@
     color: var(--main-black);
   }
 .section-header {
-    background: var(--background-grey);    
+    background: var(--background-grey); 
+    color: var(--main-white);   
     }
-
-.index-header{
+.index-main-header {
     font-family: var(--font-family);
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    color: var(--main-white);
 }
-
+/* <!-- button z index page --> */
 .index-button {
     font-family: var(--font-family);
+    border-color:var(--main-blue);
+    background: var(--main-blue);
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
     color:  var(--main-white);  
-    background: var(--main-blue);
-    coursor: pointer;
+    cursor: pointer;
 }
-
-.index-button::hover:focus{
+.section-header .index-button:hover{
     font-family: var(--font-family);
-    font-style: normal;
+    border-color:var(--main-blue);
+    background: var(--main-blue);
+    border-style: solid;
+    font-style: underline;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
-    color:  var(--main-white);  
-    background: var(--main-blue);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    /* box-shadow: 0px 4px 4px var(--main-blue); */
 }
 .text-block-header {
     font-family: var(--font-family);
@@ -133,23 +133,32 @@ body {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
-    color: var(--black-main);}
-
+    color: var(--black-main);
+    text-decoration: none;
+}
+.index-header .text-agencja-underline{
+    color: var(--main-blue);
+}
 .text-portfolio-underline {
     font-family: var(--font-family);
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
-    color: var(--main-blue);
+    color: var(--black-main);
+    text-decoration: none;
  }
- .text-kontakty-underline {
+.portfolio-header .text-portfolio-underline {
+    color: var(--main-blue);
+}
+  .text-kontakt-underline {
     font-family: var(--font-family);
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     color: var(--black-main);
+    text-decoration: none;
  }
 .phone-underline{
     font-family: var(--font-family);
@@ -159,7 +168,6 @@ body {
     line-height: 1.14;
     text-decoration: none;
     color: var(--main-silver);
-
  }
 .mail-underline{
     font-family: var(--font-family);
@@ -168,22 +176,30 @@ body {
     font-size: 14px;
     line-height: 1.14;
     text-decoration: none;
+    color: var(--main-blue);
+}
+.portfolio-header .mail-underline{
     color: var(--main-silver);
 }
-.button-all {
+.portfolio-buttons {
     font-family: var(--font-family);
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
+}
+.button-all {
     color:  var(--main-white);
     background-color: var(--main-blue);
     border-color: var(--main-blue);
     cursor: pointer;
      }
-.button-all:hover:focus{
+.portfolio-buttons .button-all:hover
+/* .portfolio-buttons .button-all:focus */
+{
     border: solid;
     border-color: var(--main-blue);
+    text-decoration: underline
 }
 .button {
     font-family: var(--font-family);
@@ -193,28 +209,37 @@ body {
     line-height: 1.62;
     background: var(--second-white);
     cursor: pointer;
+    border: none;
+    text-decoration: none;
     }
-
-.button-all:hover:focus {
-    border: solid;
+.portfolio-buttons .button:hover{
+    border: solid thin;
     border-color: var(--main-blue);
-    text-decoration: underline
- }
-
-.color-footer-address {
+    text-decoration: underline var(--main-blue);
+    }
+.footer-address {
     color:  var(--main-white);
-}
-.color-footer-phone {
+    text-decoration: none;
+    font-style: normal;
+    }
+.index-footer-mail {
     color: var(--main-silver);
+    text-decoration: none;
+    font-style: normal;
 }
-.color-footer-mail {
+.portfolio-footer-mail {
+     color: var(--main-silver);
+     text-decoration: underline;
+     font-style: normal;
+    }
+.footer-phone {
     color: var(--main-silver);
-    text-decoration: underline;
+    text-decoration: none;
+    font-style: normal;
 }
 .footer-background{
     background: var(--background-grey);
 }
-
  .logo2foot {
     font-family: 'Raleway';
     font-style: normal;
