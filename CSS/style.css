@@ -28,23 +28,23 @@
     font-family: var(--font-family);
     border-color:var(--main-blue);
     background: var(--main-blue);
+    color:  var(--main-white);  
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
-    color:  var(--main-white);  
-    cursor: pointer;
+
 }
-.section-header .index-button:hover{
+/* .section-header .index-button:hover{
     font-family: var(--font-family);
     border-color:var(--main-blue);
     background: var(--main-blue);
     border-style: solid;
-    font-style: underline;
+    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
-    /* box-shadow: 0px 4px 4px var(--main-blue); */
+    box-shadow: 0px 4px 4px var(--main-blue); */
 }
 .text-block-header {
     font-family: var(--font-family);
@@ -107,6 +107,7 @@ body {
      }
 .underline {
     text-decoration: none;
+    cursor: auto
 }
 
 .logo1 {
@@ -136,10 +137,22 @@ body {
     color: var(--black-main);
     text-decoration: none;
 }
-.index-header .text-agencja-underline{
-    color: var(--main-blue);
+.text-agencja-underline:hover{
+    color: var(--main-blue)
 }
 .text-portfolio-underline {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    color: var(--main-black);
+    text-decoration: none;
+ }
+.text-portfolio-underline:hover{
+    color: var(--main-blue)
+}
+.text-kontakt-underline {
     font-family: var(--font-family);
     font-style: normal;
     font-weight: 500;
@@ -148,17 +161,8 @@ body {
     color: var(--black-main);
     text-decoration: none;
  }
-.portfolio-header .text-portfolio-underline {
-    color: var(--main-blue);
-}
-  .text-kontakt-underline {
-    font-family: var(--font-family);
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    color: var(--black-main);
-    text-decoration: none;
+ .text-kontakt-underline:hover{
+    color: var(--main-blue)
  }
 .phone-underline{
     font-family: var(--font-family);
@@ -169,6 +173,9 @@ body {
     text-decoration: none;
     color: var(--main-silver);
  }
+ .phone-underline:hover{
+    color: var(--main-blue)
+ }
 .mail-underline{
     font-family: var(--font-family);
     font-style: normal;
@@ -176,11 +183,11 @@ body {
     font-size: 14px;
     line-height: 1.14;
     text-decoration: none;
-    color: var(--main-blue);
-}
-.portfolio-header .mail-underline{
     color: var(--main-silver);
-}
+    }
+.mail-underline:hover{
+        color: var(--main-blue)
+     }
 .portfolio-buttons {
     font-family: var(--font-family);
     font-style: normal;
@@ -188,7 +195,7 @@ body {
     font-size: 16px;
     line-height: 1.62;
 }
-.button-all {
+/* .button-all {
     color:  var(--main-white);
     background-color: var(--main-blue);
     border-color: var(--main-blue);
@@ -196,13 +203,14 @@ body {
      }
 .portfolio-buttons .button-all:hover
 /* .portfolio-buttons .button-all:focus */
-{
-    border: solid;
+
+    /* border: solid;
     border-color: var(--main-blue);
-    text-decoration: underline
-}
+    text-decoration: none
+} */
 .button {
     font-family: var(--font-family);
+    color: var(--black-main)
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -212,11 +220,12 @@ body {
     border: none;
     text-decoration: none;
     }
-.portfolio-buttons .button:hover{
-    border: solid thin;
+.button:hover{
+    color:  var(--main-white);
+    background-color: var(--main-blue);
     border-color: var(--main-blue);
-    text-decoration: underline var(--main-blue);
-    }
+    cursor: pointer;
+     }
 .footer-address {
     color:  var(--main-white);
     text-decoration: none;
